@@ -2,18 +2,18 @@ import { useState } from 'react'
 import './App.css'
 
 const games = [
-  { id: 1, title: 'Racing Thunder', category: 'Racing', plays: '2.5M', image: '🏎️' },
-  { id: 2, title: 'Zombie Survival', category: 'Action', plays: '1.8M', image: '🧟' },
-  { id: 3, title: 'Puzzle Master', category: 'Puzzle', plays: '3.2M', image: '🧩' },
-  { id: 4, title: 'Soccer Stars', category: 'Sports', plays: '4.1M', image: '⚽' },
-  { id: 5, title: 'Space Invaders X', category: 'Arcade', plays: '1.2M', image: '🚀' },
-  { id: 6, title: 'Cooking Mama', category: 'Simulation', plays: '2.9M', image: '👨‍🍳' },
-  { id: 7, title: 'Tower Defense Pro', category: 'Strategy', plays: '1.5M', image: '🏰' },
-  { id: 8, title: 'Dress Up Party', category: 'Girls', plays: '3.8M', image: '👗' },
-  { id: 9, title: 'Ninja Warrior', category: 'Action', plays: '2.1M', image: '🥷' },
-  { id: 10, title: 'Farm Frenzy', category: 'Simulation', plays: '1.9M', image: '🌾' },
-  { id: 11, title: 'Basketball Pro', category: 'Sports', plays: '2.3M', image: '🏀' },
-  { id: 12, title: 'Monster Truck', category: 'Racing', plays: '1.7M', image: '🚗' },
+  { id: 1, title: 'Memory Match', category: 'Puzzle', plays: '', image: '' },
+  { id: 2, title: 'Tic-Tac-Toe', category: 'Strategy', plays: '', image: '' },
+  { id: 3, title: '', category: '', plays: '', image: '' },
+  { id: 4, title: '', category: '', plays: '', image: '' },
+  { id: 5, title: '', category: '', plays: '', image: '' },
+  { id: 6, title: '', category: '', plays: '', image: '' },
+  { id: 7, title: '', category: '', plays: '', image: '' },
+  { id: 8, title: '', category: '', plays: '', image: '' },
+  { id: 9, title: '', category: '', plays: '', image: '' },
+  { id: 10, title: '', category: '', plays: '', image: '' },
+  { id: 11, title: '', category: '', plays: '', image: '' },
+  { id: 12, title: '', category: '', plays: '', image: '' },
 ]
 
 const categories = [
@@ -25,6 +25,7 @@ const categories = [
   { name: 'Strategy', icon: '♟️', color: '#ff44aa' },
   { name: 'Simulation', icon: '🎮', color: '#44ffaa' },
   { name: 'Girls', icon: '💖', color: '#ff69b4' },
+  { name: 'Board Games', icon: '♟️', color: '#8b4513'},
 ]
 
 function App() {
