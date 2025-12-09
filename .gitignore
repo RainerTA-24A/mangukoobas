@@ -1,0 +1,7 @@
+# Sõltuvuste kaustad, mida ei commit'ita Git'i
+/node_modules
+
+# Logid ja ajutised kaustad
+/dist
+.env
+.DS_Store
