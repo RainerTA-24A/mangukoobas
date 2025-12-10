@@ -91,6 +91,13 @@ function TicTacToe() {
         return false;
     };
 
+
+    function resetGame () {
+        setBoard(Array(9).fill(''));
+        setCurrentPlayer(`${currentPlayer}`);
+        setIsGameActive(true);
+}
+
     // RENDER
     return (
         <div className = "tic-tac-toe-game">
@@ -110,9 +117,10 @@ function TicTacToe() {
                 ))}
             </div>
                 {/* Siia võid lisada nuppu mängu lähtestamiseks */}
-                {/*<button onClick={resetGame}>Alusta uuesti </button> */}
+                <button onClick={resetGame}>Alusta uuesti</button>
         </div>
     );
 }
+
 
 export default TicTacToe;
